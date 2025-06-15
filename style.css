@@ -1,0 +1,86 @@
+/* Fundo com degradê azul e lilás */
+body {
+  background: linear-gradient(135deg, #4b6cb7, #182848, #7b5dc7);
+  height: 100vh;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #e0e0ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Caixa do texto da mensagem */
+#mensagem {
+  max-width: 600px;
+  background: rgba(24, 24, 72, 0.7);
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(123, 93, 199, 0.8);
+  font-size: 18px;
+  line-height: 1.6;
+  user-select: none;
+}
+
+/* Estilo do botão */
+button {
+  margin-top: 20px;
+  padding: 12px 25px;
+  font-size: 18px;
+  border: none;
+  border-radius: 25px;
+  background-color: #7b5dc7;
+  color: #e0e0ff;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(123, 93, 199, 0.9);
+  transition: background-color 0.3s ease;
+}
+
+/* Efeito hover no botão */
+button:hover {
+  background-color: #5a3ea0;
+}
+
+
+.decora {
+  position: absolute;
+  width: 280px;
+  height: 270px;
+  object-fit: contain;
+  user-select: none;
+  pointer-events: none;
+  transition: transform 0.3s ease;
+}
+
+.top-left {
+  top: -5px;
+  left: -5px;
+}
+
+.top-right {
+  top: -5px;
+  right: -5px;
+}
+
+.bottom-left {
+  bottom: -5px;
+  left: -5px;
+}
+
+.bottom-right {
+  bottom: -5px;
+  right: -5px;
+}
+
+.decora:hover {
+  transform: scale(1.03) translateY(-2px);
+  cursor: default;
+}
+
+
+
+
+
