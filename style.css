@@ -47,8 +47,8 @@ button:hover {
 
 .decora {
   position: absolute;
-  width: 280px;
-  height: 270px;
+  width: 240px;
+  height: 250px;
   object-fit: contain;
   user-select: none;
   pointer-events: none;
@@ -56,23 +56,23 @@ button:hover {
 }
 
 .top-left {
-  top: -15px;
-  left: -15px;
+  top: -25px;
+  left: -25px;
 }
 
 .top-right {
-  top: -15px;
-  right: -15px;
+  top: -25px;
+  right: -25px;
 }
 
 .bottom-left {
-  bottom: -15px;
-  left: -15px;
+  bottom: -25px;
+  left: -25px;
 }
 
 .bottom-right {
-  bottom: -15px;
-  right: -15px;
+  bottom: -25px;
+  right: -25px;
 }
 
 .decora:hover {
